@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="Handwritten Digit Recognition Banner" width="100%">
+  <img src="asset/banner.jpg" alt="Handwritten Digit Recognition Banner" width="100%">
 </p>
 
 # ✍️ Handwritten Digit Recognition using Deep Neural Networks
