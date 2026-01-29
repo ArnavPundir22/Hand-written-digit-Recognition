@@ -4,10 +4,10 @@ import tensorflow as tf
 
 
 IMG_SIZE = 28
-MODEL_PATH = "dnn_digits_1_to_9.h5"  
+MODEL_PATH = "outputs/model/final_model.h5"  
 
 
-classes = list("123456789")
+classes = list("0123456789")
 
 model = tf.keras.models.load_model(MODEL_PATH)
 print("Model loaded successfully!")
@@ -48,6 +48,6 @@ def predict_digit(image_path):
     return predicted_digit, confidence
 
 if __name__ == "__main__":
-    image_path = "test_digit.png"   #  change path
+    image_path = "2.png"   #  change path
     predict_digit(image_path)
 
